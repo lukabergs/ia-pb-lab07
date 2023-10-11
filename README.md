@@ -24,7 +24,9 @@
   ```
 11. **Rotar derecha.** Crea el _procedimiento_ **rotar_derecha** que, dado un vector de N enteros (completo, o sea, con N enteros) cuyos valores pueden no estar ordenados, lo modifique rotando sus elementos una posición a la derecha, de modo que el último elemento pase a ser el primero.
 
-    ![Fig. 1](https://github.com/lukabergs/ia-pb-lab07/assets/52601751/1ce843d5-f509-4521-b3e0-943af816a610)
+    <div align="center">
+       <img src="https://github.com/lukabergs/ia-pb-lab07/assets/52601751/1ce843d5-f509-4521-b3e0-943af816a610" title="Fig. 1">
+    </div>
 
 12. **Esta en vector (vector ordenado).** Implementa la _función_ **esta_en_vector_ordenado** que, dado un valor entero y un vector de N enteros (completo, o sea, con N enteros) cuyos valores están ordenados ascendentemente, diga si el entero está o no en el vector. Es imprescindible que la solución sea eficiente.
 13. **Eliminar elemento (vector ordenado)** Crea el _procedimiento_ **eliminar_elemento_ordenado** que, dada una posición pos y un vector V de N enteros cuyos valores están ordenados ascendentemente y terminado con el valor `Integer'First`, modifique V eliminando el elemento en la posición pos (si existe). Si pos no es un valor donde hay un elemento, entonces no se hará nada. Este ejercicio es similar al anterior, con la diferencia de que en este caso los elementos de la lista están ordenados antes y deben seguir ordenados después de realizar el borrado del elemento.
